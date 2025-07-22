@@ -27,8 +27,10 @@ public class Exercise1 {
 			}
 			System.out.println("Back to Menu (Y/N):");
 			ch= scanner.next().charAt(0);
-			if((ch!='Y') || (ch!='N')) {
-				System.out.println("You have entered invalid character please re run the program!");
+			if(ch!='Y'){
+				if((ch!='N')) {
+					System.out.println("You have entered invalid character please re run the program!");
+				}
 			}
 		}while(ch=='Y');
 	}
