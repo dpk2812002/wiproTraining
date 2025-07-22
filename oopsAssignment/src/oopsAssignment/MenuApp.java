@@ -39,7 +39,7 @@ public class MenuApp {
                     operations.printFibonacci(terms);
                     break;
                 case 5:
-                    System.out.println("Exiting... Goodbye!");
+                    System.out.println("Exiting...");
                     break;
                 default:
                     System.out.println("Invalid choice. Please select between 1-5.");
